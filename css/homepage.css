@@ -68,7 +68,7 @@ li a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 7vw 30vw 0vw 0vw;
+  margin: 11vw 30vw 0vw 0vw;
 
 }
 
@@ -99,13 +99,13 @@ li a:hover {
 }
 
 
-.liner {
+/* .liner {
   background-image: url('/img/bg/polygon.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
-}
+} */
 
 .gradient {
   background-image: linear-gradient(white, orange, rgb(255, 115, 0));
