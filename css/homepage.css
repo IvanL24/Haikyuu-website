@@ -50,10 +50,12 @@ ul {
 li  {
   margin: 0rem 1rem 0rem 1rem;
   padding: 0rem 1rem 0rem 1rem;
+  text-align: center;
 }
 
 li a {
   color: black;
+  padding: 3px 15px;
 }
 
 li a:hover {
@@ -142,6 +144,7 @@ li a:hover {
 .option {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 3rem;
 }
 
 .option div {
@@ -150,9 +153,25 @@ li a:hover {
   align-items: center;
 }
 
+.option div figure {
+  padding: 1rem;
+
+}
+
+.option div figure:hover{
+  background-color: black;
+  color: white;
+
+  transition: all 0.5s ease;
+  transform: translateY(-8px);
+
+  cursor: pointer;
+}
+
 .option img {
   width: 251px;
   height: 397px;
+  margin-bottom: 1em;
 }
 
 .manga h2 {
@@ -167,4 +186,12 @@ li a:hover {
   border-bottom: 3px solid black;
   width: 15rem;
   text-align: center;
+}
+
+footer {
+  text-align: center;
+  height: 6vh;
+  align-items: center;
+  display: flex;
+  justify-content: center;
 }

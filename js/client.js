@@ -18,7 +18,9 @@ players.forEach(function(item){
 
     <figcaption>
       <h2>${item.name}</h2>
-      <p>${item.position}</p>
+      <p>Height:  ${item.height}</p>
+      <p>Weight:  ${item.weight}</p>
+      <p>Position:  ${item.position}</p>
     </figcaption>
     
   </figure>`
