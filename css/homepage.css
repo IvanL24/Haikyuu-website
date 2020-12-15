@@ -1,0 +1,170 @@
+* {
+  box-sizing: border-box;
+}
+body, html {
+  display: flex;
+  /* height: 100vh; */
+  margin: 0;
+  /* background-image: linear-gradient(355deg, orange, white); */
+  
+  font-family: 'Sarpanch', sans-serif;
+}
+
+.no-gradient {
+  margin-bottom: 17vw;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 30%;
+
+  /* background-image: url('/img/bg/noya-bg.jpg'); */
+}
+
+main {
+  display: flex; 
+  flex-direction: column;
+}
+
+.nav {
+  /* margin: 5rem; */
+  /* position: absolute; */
+  /* top: 2rem; */
+  flex-direction: row-reverse;
+  height: 15vh;
+  border-bottom: 3px solid black;
+}
+
+.navigation {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+  border-bottom: 3px solid black;
+  width: 90vw;
+  font-size: 25px;
+}
+
+ul {
+  padding: 3rem 3rem 0rem 0rem; 
+}
+
+li  {
+  margin: 0rem 1rem 0rem 1rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+li a {
+  color: black;
+}
+
+li a:hover {
+  background-color: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+
+}
+
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 7vw 30vw 0vw 0vw;
+
+}
+
+.banner h2 {
+  font-size: clamp(30px, 5vw, 100px);
+  font-weight: bold;
+}
+
+.banner p {
+  font-size: 30px;
+  letter-spacing: 0px;
+}
+
+.bg {
+  margin-top: 3vw;
+  position: absolute;
+  z-index: -1;
+  align-self: flex-end;
+}
+
+.bg img {
+  /* max-width: 100%;
+  height: auto;
+  width: auto; */
+  width: 90vw;
+  animation-duration: 3s;
+  animation-name: slidein;
+}
+
+
+.liner {
+  background-image: url('/img/bg/polygon.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.gradient {
+  background-image: linear-gradient(white, orange, rgb(255, 115, 0));
+  /* background-image: url('/img/bg/polygon.jpg'); */
+  /* background-attachment: fixed; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+
+}
+
+.about {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  padding: 0rem 15rem 0rem 6rem;
+  margin: 8rem 1rem;
+}
+
+.about figure {
+  padding: 1rem;
+  border: 3px solid black;
+  margin-right: 5rem;
+}
+
+.about img {
+  width: 18rem;
+}
+
+.about h1 {
+  border-bottom: 3px solid black;
+}
+
+.option {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.option div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.option img {
+  width: 251px;
+  height: 397px;
+}
+
+.manga h2 {
+  margin-bottom: 3rem;
+  border-bottom: 3px solid black;
+  width: 15rem;
+  text-align: center;
+}
+
+.anime h2 {
+  margin-bottom: 3rem;
+  border-bottom: 3px solid black;
+  width: 15rem;
+  text-align: center;
+}

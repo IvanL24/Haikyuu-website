@@ -1,0 +1,97 @@
+* {
+
+  box-sizing: border-box;
+  
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Sarpanch:wght@600;800&display=swap');
+
+body {
+
+  height: 100vh;
+
+  margin: 0;
+
+  font-family: 'Sarpanch', sans-serif;
+
+  color: var(--main-text-color);
+  background-color: var(--main-bg-color);
+}
+
+
+
+:root{
+
+  --main-bg-color: #190a04;
+  --main-text-color: #ffffff;
+
+}
+
+p {
+  
+  font-size: clamp(11px, 2.5vw, 18px);
+
+}
+
+a {
+
+  color: white;
+
+}
+
+ul {
+
+  list-style-type: none;
+
+}
+
+/* navigation */
+
+.navigation .top .logo {
+
+  width: 3rem;
+  height: 3rem;
+
+  border-radius: 50%;
+
+  background-image: url('../svg/classic\ cars\ \(1\).svg');
+  background-position-x: -1px;
+  background-size: cover;
+
+  cursor: pointer;
+
+}
+
+.navigation .bottom > div {
+
+  font-size: clamp(12px, 2vw, 23px);
+
+  cursor: pointer;
+
+}
+
+.navigation .bottom > div:hover, a:hover {
+
+  text-decoration: none;
+
+  color: white;
+
+  opacity: 50%;
+
+}
+
+/* ****** FOOTER UPDATED ******* */
+
+footer{
+  
+  display: flex;
+  justify-content: center;
+
+  position: sticky;
+
+  bottom: 0;
+  
+}
+
+
+/* 

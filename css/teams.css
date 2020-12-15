@@ -1,0 +1,23 @@
+.profile {
+  align-items: center;
+  justify-content: center;
+}
+
+.profile figure img {
+  width: 20em;
+  background-color: white;
+  border: 5px solid orange;
+}
+
+.info {
+  margin: 1rem 1rem 1rem 3rem;
+  padding: 2rem 0rem 2rem 2rem;
+}
+
+.info h3 {
+  width: 24rem;
+  border-bottom: 4px solid orange;
+  padding: 0rem 0rem 0.5rem 1rem;
+  margin-bottom: 3rem;
+
+}
