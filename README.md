@@ -1,5 +1,13 @@
-# CPNT-260 Final Assignment
-## Ivan Lavena
+## Haikyuu website project
 
-# update 
-  added spaces for code quality
+## To do:
+- decide on what to put for the third navigation
+- fix responsiveness of typography
+- edit  `client.js` to have the following for stats:
+  - height
+  - weight
+  - position
+
+- convert 'html' files to 'ejs'
+- add partials
+- clean up
