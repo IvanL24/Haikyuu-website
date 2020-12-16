@@ -3,8 +3,6 @@
 ## To do:
 - fix responsiveness of typography
 
-- convert 'html' files to 'ejs'
-- add partials
 - clean up
 
 ## finished task
@@ -13,3 +11,5 @@
   - height
   - weight
   - position
+- convert 'html' files to 'ejs'
+- add partials
