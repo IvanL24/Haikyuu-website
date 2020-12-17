@@ -6,12 +6,13 @@ body, html {
   /* height: 100vh; */
   margin: 0;
   /* background-image: linear-gradient(355deg, orange, white); */
+  background-color: #cfcfcf;
   
   font-family: 'Sarpanch', sans-serif;
 }
 
 .no-gradient {
-  margin-bottom: 17vw;
+  margin-bottom: 13vw;
   display: flex;
   flex-direction: column;
 
@@ -38,21 +39,33 @@ main {
   display: flex;
   list-style: none;
   justify-content: flex-end;
-  border-bottom: 3px solid black;
+  /* border-bottom: 3px solid black; */
   width: 90vw;
   font-size: clamp(16px, 2vw, 35px);
 }
 
+/* .home:hover {
+  border-radius: 50px;
+background: linear-gradient(145deg, #e6e6e6, #ffffff);
+box-shadow:  20px 20px 60px #d9d9d9, 
+             -20px -20px 60px #ffffff;
+} */
+
 .logo {
   position: absolute;
   list-style: none;
-  padding: 7px 0px;
+  padding: 16px 0px;
   margin: 0;
+
 }
 
 .logo li img {
   width: 130px;
   border-radius: 50%;
+
+  background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
+  box-shadow:  21px 21px 38px #aeaeae, 
+               -21px -21px 38px #f0f0f0;
 }
 
 ul {
@@ -65,18 +78,39 @@ li  {
   margin: 0rem 1rem 0rem 1rem;
   padding: 0rem 1rem 0rem 1rem;
   text-align: center;
+
+ 
 }
 
 li a {
   color: black;
   padding: 3px 15px;
+
+  border-radius: 10px;
+  background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
+  box-shadow:  19px 19px 30px #aeaeae, 
+               -19px -19px 30px #f0f0f0;
 }
 
 li a:hover {
-  background-color: rgb(0, 0, 0);
-  color: white;
+  /* background-color: rgb(0, 0, 0); */
+  color: black;
   cursor: pointer;
   text-decoration: none;
+
+  border-radius: 10px;
+  background-color: #cfcfcf;
+  /* background: linear-gradient(145deg, #bababa, #dddddd); */
+  /* border: 1px solid rgb(150, 150, 150); */
+
+  background: #cfcfcf;
+  box-shadow: inset 17px 17px 33px #b3b3b3, 
+              inset -17px -17px 33px #f0f0f0;
+
+              border-bottom: 1px solid white;
+              border-right: 1px solid white;
+              border-top: 1px solid #a2a2a2;
+              border-left: 1px solid #7b7b7b;
 
 }
 
@@ -85,6 +119,7 @@ li a:hover {
   justify-content: center;
   align-items: center;
   margin: 11vw 30vw 0vw 0vw;
+  z-index: 1;
 
 }
 
@@ -99,17 +134,29 @@ li a:hover {
 }
 
 .bg {
-  margin-top: 3vw;
+  margin-top: 12vw;
   position: absolute;
-  z-index: -1;
+  /* z-index: -1; */
   align-self: flex-end;
+  animation: yourAnimation 1s forwards 0s ease;
+}
+
+@keyframes yourAnimation{
+  0%{
+      transform: rotate(0) translateX(-100px) translateY(0);
+      opacity: 0;
+      }
+  100%{
+      transform: rotate(0) translateX(0px) translateY(0);
+      opacity: 1;
+      }
 }
 
 .bg img {
   /* max-width: 100%;
   height: auto;
   width: auto; */
-  width: 90vw;
+  width: 50vw;
   animation-duration: 3s;
   animation-name: slidein;
 }
@@ -118,10 +165,20 @@ li a:hover {
 .liner {
 
   text-align: center;
+  padding: 35px;
+
+  border-radius: 50px;
+  background: #f4f4f4;
+  background: #cfcfcf;
+  box-shadow:  17px 17px 33px #aeaeae, 
+               -17px -17px 33px #f0f0f0;
+
+  /* border-top: 2px solid #242424;
+border-left: 3px solid black; */
 }
 
 .gradient {
-  background-image: linear-gradient(white, orange, rgb(255, 115, 0));
+  /* background-image: linear-gradient(#CFCFCF, orange, rgb(255, 115, 0)); */
   /* background-image: url('/img/bg/polygon.jpg'); */
   /* background-attachment: fixed; */
   background-repeat: no-repeat;
@@ -134,22 +191,56 @@ li a:hover {
   display: flex;
   /* flex-direction: column; */
   justify-content: center;
-  padding: 0rem 15rem 0rem 6rem;
-  margin: 8rem 1rem;
+  padding: 2rem 15rem 2rem 6rem;
+  margin: 3rem 5rem;
+
+  background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
+  box-shadow:  21px 21px 38px #aeaeae, 
+               -21px -21px 38px #f0f0f0;
 }
 
 .about figure {
   padding: 1rem;
-  border: 3px solid black;
+  /* border: 3px solid black; */
   margin-right: 5rem;
+  border: 3px;
+  background: #cfcfcf;
+  box-shadow: inset 17px 17px 33px #b3b3b3, 
+              inset -17px -17px 33px #f0f0f0;
+
+              border-bottom: 1px solid white;
+              border-right: 1px solid white;
+              border-top: 1px solid #a2a2a2;
+              border-left: 1px solid #7b7b7b;
+
 }
 
 .about img {
   width: 18rem;
+  background: #cfcfcf;
+  box-shadow: inset 17px 17px 33px #b3b3b3, 
+              inset -17px -17px 33px #f0f0f0;
+
+              border-bottom: 1px solid white;
+              border-right: 1px solid white;
+              border-top: 1px solid #a2a2a2;
+              border-left: 1px solid #7b7b7b;
+
 }
 
 .about h1 {
   border-bottom: 3px solid black;
+}
+
+.description {
+  padding:16px;
+  box-shadow: inset 17px 17px 33px #b3b3b3, 
+  inset -17px -17px 33px #f0f0f0;
+
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid #a2a2a2;
+  border-left: 1px solid #7b7b7b;
 }
 
 .media {
@@ -162,6 +253,12 @@ li a:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 3rem;
+
+  background: #cfcfcf;
+  box-shadow: inset 17px 17px 33px #b3b3b3, 
+              inset -17px -17px 33px #f0f0f0;
+
+ 
 }
 
 .option div {
@@ -177,13 +274,17 @@ li a:hover {
 }
 
 .option div figure:hover{
-  background-color: black;
-  color: white;
+  /* background-color: black; */
+  /* color: white; */
 
   transition: all 0.5s ease;
   transform: translateY(-8px);
 
   cursor: pointer;
+
+  background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
+  box-shadow:  21px 21px 38px #aeaeae, 
+               -21px -21px 38px #f0f0f0;
 }
 
 .option img {
@@ -193,24 +294,49 @@ li a:hover {
 }
 
 .manga h2 {
-  margin-bottom: 3rem;
+  margin: 3rem 0rem;
   border-bottom: 3px solid black;
   width: 15rem;
   text-align: center;
+
+  background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
+  box-shadow:  21px 21px 38px #aeaeae, 
+               -21px -21px 38px #f0f0f0;
 }
 
 .anime h2 {
-  margin-bottom: 3rem;
+  margin: 3rem 0rem;
   border-bottom: 3px solid black;
   width: 15rem;
   text-align: center;
+
+  background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
+  box-shadow:  21px 21px 38px #aeaeae, 
+               -21px -21px 38px #f0f0f0;
 }
 
 .play h2 {
-  margin-bottom: 3rem;
+  margin: 3rem 0rem;
   border-bottom: 3px solid black;
   width: 15rem;
   text-align: center;
+
+  background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
+  box-shadow:  21px 21px 38px #aeaeae, 
+               -21px -21px 38px #f0f0f0;
+}
+
+.option figcaption {
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid #a2a2a2;
+  border-left: 1px solid #7b7b7b;
+}
+
+.option figcaption:hover {
+  background: #cfcfcf;
+  box-shadow: inset 17px 17px 33px #b3b3b3, 
+              inset -17px -17px 33px #f0f0f0;
 }
 
 footer {

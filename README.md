@@ -1,8 +1,7 @@
 ## Haikyuu website project
 
 ## To do:
-- fix responsiveness of typography
-
+- font pairings
 - clean up
 
 ## finished task
@@ -13,3 +12,4 @@
   - position
 - convert 'html' files to 'ejs'
 - add partials
+- fix responsiveness of typography
