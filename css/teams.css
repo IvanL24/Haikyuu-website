@@ -105,7 +105,14 @@ li a:hover {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  margin-top: 3rem;
+  opacity: 0.5;
 
+}
+
+.profile h2 {
+  text-align: center;
+  margin: 15px 0;
 }
 
 .profile .follow p {
@@ -133,7 +140,7 @@ li a:hover {
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  padding: 15px;
+  padding: 20px;
 
   border-radius: 50px;
   background: #cfcfcf;
@@ -153,7 +160,10 @@ li a:hover {
   border-radius: 40px;
   width: 20em;
   background-color: white;
-  border: 5px solid ;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  border-top: 1px solid #a2a2a2;
+  border-left: 1px solid #7b7b7b;
 }
 
 
