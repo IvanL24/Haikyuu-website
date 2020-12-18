@@ -9,6 +9,11 @@ body {
   font-family: 'Sarpanch', sans-serif;
 }
 
+body p {
+  font-family: 'Lato', sans-serif;
+
+}
+
 /* ********* NAVIGATION *********** */
 
 .nav {
@@ -57,8 +62,9 @@ li a {
   padding: 3px 15px;
   border-radius: 10px;
   background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
-  box-shadow: 19px 19px 30px #aeaeae, 
- -19px -19px 30px #f0f0f0;
+  box-shadow:  19px 19px 30px #aeaeae, 
+               -19px -19px 30px #f0f0f0;
+
 }
 
 li a:hover {
@@ -68,13 +74,16 @@ li a:hover {
   border-radius: 10px;
   background-color: #cfcfcf;
   background: #cfcfcf;
-  box-shadow: inset 17px 17px 33px #b3b3b3, 
- inset -17px -17px 33px #f0f0f0;
-  border-bottom: 1px solid white;
+  box-shadow: inset 17px 17px 20px #b3b3b3, 
+ inset -17px -17px 20px #f0f0f0;
+  /* border-bottom: 1px solid white; */
   border-right: 1px solid white;
-  border-top: 1px solid #a2a2a2;
+  /* border-top: 1px solid #a2a2a2; */
   border-left: 1px solid #7b7b7b;
+  
 }
+
+
 
 .no-gradient {
   margin-bottom: 13vw;
@@ -88,7 +97,7 @@ main {
   flex-direction: column;
 }
 
-
+/* *********************************** */
 
 .banner {
   display: flex;
@@ -142,6 +151,26 @@ main {
  -17px -17px 33px #f0f0f0;
 }
 
+.water {
+  position: absolute;
+  margin-top: -8rem;
+  width: 90vw;
+  align-items: first baseline;
+  display: flex;
+  opacity: 0.2;
+  z-index: -1;
+}
+
+.water h1 {
+  transform-origin: left bottom;
+  transform: rotate(73deg);
+  position: absolute;
+  font-size: 12rem;
+  text-align: center;
+  color: aliceblue;
+  padding-bottom: 6rem;
+}
+
 
 .gradient {
 
@@ -153,8 +182,8 @@ main {
 .about {
   display: flex;
   justify-content: center;
-  padding: 2rem 15rem 2rem 6rem;
-  margin: 3rem 5rem;
+  padding: 3rem;
+  margin: 3vw 17vw;
   background: linear-gradient(145deg, #e2e2e2, #b8b8b8);
   box-shadow: 21px 21px 38px #aeaeae, 
  -21px -21px 38px #f0f0f0;
@@ -171,6 +200,7 @@ main {
   border-right: 1px solid white;
   border-top: 1px solid #a2a2a2;
   border-left: 1px solid #7b7b7b;
+
 }
 
 .about img {
@@ -237,6 +267,14 @@ main {
   width: 251px;
   height: 397px;
   margin-bottom: 1em;
+  border-radius: 9px;
+
+  box-shadow: inset 17px 17px 33px #b3b3b3, 
+  inset -17px -17px 33px #f0f0f0;
+   border-bottom: 1px solid white;
+   border-right: 2px solid white;
+   border-top: 2px solid #a2a2a2;
+   border-left: 1px solid #7b7b7b;
 }
 
 .manga h2 {
@@ -270,6 +308,7 @@ main {
 }
 
 .option figcaption {
+  text-align: center;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
   border-top: 1px solid #a2a2a2;

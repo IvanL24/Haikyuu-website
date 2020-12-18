@@ -99,20 +99,61 @@ li a:hover {
   display: grid;
 }
 
+.profile .follow {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.profile .follow p {
+  font-size: 50px;
+
+  animation: arrow 1s infinite 0s linear;
+}
+
+@keyframes arrow{
+  0%{
+      transform: translateY(0%);
+      opacity: 0;
+      }
+  50%{
+      transform: translateY(50%);
+      opacity: 1;
+      }
+  100%{
+      transform: rotate(xx) translateY(100%);
+      opacity: 0;
+      }
+}
 .profile figure {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-self: center;
-  background-color: grey;
-  padding: 9px;
+  padding: 15px;
+
+  border-radius: 50px;
+  background: #cfcfcf;
+  box-shadow:  17px 17px 33px #aeaeae, 
+               -17px -17px 33px #f0f0f0;
+
+  clip-path: circle(27% at 51% 33%);
+  transition: clip-path 0.5s ease-in-out;
 
 }
 
+.profile figure:hover {
+  clip-path: circle(75%);
+}
+
 .profile figure img {
+  border-radius: 40px;
   width: 20em;
   background-color: white;
-  border: 5px solid orange;
+  border: 5px solid ;
 }
 
 
@@ -164,6 +205,12 @@ li a:hover {
                -17px -17px 33px #f0f0f0;
 
   
+}
+
+.card i:hover {
+  background-color: #cfcfcf;
+  box-shadow:  -7px 7px 14px #aeaeae, 
+  7px -7px 14px #f0f0f0;
 }
 
 .card h3 {
