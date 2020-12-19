@@ -1,4 +1,8 @@
 ## Haikyuu website project
+  Thank you very much for all the things that you taught us in the span of 15 weeks!!
+
+GH repo: [https://github.com/IvanL24/Haikyuu-website.git]
+
 
 ## To do:
 - font pairings
@@ -16,12 +20,3 @@
 
 
 
-Saitsa Benefit Coordinator
-
-Irene Yoo
-
-saitsa.benefits@edu.sait.ca
-
-Saitsa’s Resource Centre – MC107 Stan Grad
-
-If you have any questions or need further assistance, please contact the provider by calling 1-833-674-2600 or emailing ask.ab@pbas.ca
