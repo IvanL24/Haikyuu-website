@@ -17,7 +17,7 @@ body{
 }
 
 
-
+/* ********** NAVIGATION  **********  */
 
 .nav {
 
@@ -115,6 +115,9 @@ li a:hover {
   margin: 15px 0;
 }
 
+/* ********** LITTLE BIT OF ANIMATION FOR ARROWS **********  */
+
+
 .profile .follow p {
   font-size: 50px;
 
@@ -135,6 +138,9 @@ li a:hover {
       opacity: 0;
       }
 }
+
+/* ********** CREATE CIRCLE TRANSITION IN ORDER TO REVEAL MORE DETAILS **********  */
+
 .profile figure {
   display: flex;
   flex-direction: column;
@@ -216,6 +222,8 @@ li a:hover {
 
   
 }
+
+/* ********** DIFFERENT APPROACH OF MAKING BUTTONS WITH NEUMORPHISM **********  */
 
 .card i:hover {
   background-color: #cfcfcf;

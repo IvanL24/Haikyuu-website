@@ -3,6 +3,8 @@
 
 GH repo: [https://github.com/IvanL24/Haikyuu-website.git]
 
+Still working on it to make it more appealing.
+later on I will convert them to EJS and SCSS
 
 ## To do:
 - font pairings
@@ -17,6 +19,7 @@ GH repo: [https://github.com/IvanL24/Haikyuu-website.git]
 - convert 'html' files to 'ejs'
 - add partials
 - fix responsiveness of typography
+
 
 
 

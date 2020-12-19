@@ -117,6 +117,8 @@ main {
   letter-spacing: 0px;
 }
 
+/* ****** ADD ANIMATION TO MAKE IT MORE FUN *********** */
+
 .bg {
   margin-top: 12vw;
   position: absolute;
@@ -141,6 +143,9 @@ main {
   animation-name: slidein;
 }
 
+/* ********** SHADOWS TO CREATE NEUMORPHISM EFFECT **********  */
+
+
 .liner {
   text-align: center;
   padding: 35px;
@@ -160,6 +165,9 @@ main {
   opacity: 0.2;
   z-index: -1;
 }
+
+/* ********** ADD WATERMARK SO IT DOES NOT LOOK BORING **********  */
+
 
 .water h1 {
   transform-origin: left bottom;
@@ -314,6 +322,8 @@ main {
   border-top: 1px solid #a2a2a2;
   border-left: 1px solid #7b7b7b;
 }
+
+/* ********** CREATE LEVITATING CARDS **********  */
 
 .option figcaption:hover {
   background: #cfcfcf;

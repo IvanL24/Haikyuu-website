@@ -7,6 +7,8 @@ body{
 
 }
 
+/* ******* NAVIGATION ******** */
+
 .nav {
   flex-direction: row-reverse;
   height: 15vh;
@@ -62,6 +64,8 @@ li a {
                -19px -19px 30px #f0f0f0;
 }
 
+/* ****** ADD SOME EFFECTS ********** */
+
 li a:hover {
   color: black;
   cursor: pointer;
@@ -107,6 +111,9 @@ li a:hover {
   
 }
 
+/* **********  LITTLE TRANSITION TO MAKE IT LOOK LIKE ITS PUSHING DOWN **********  */
+
+
 .gallery figure {
 
   margin: 2rem;
@@ -132,6 +139,9 @@ figure img {
   margin-right: 1vw;
   border-radius: 30px;
 }
+
+
+
 
 figure  figcaption {
   display: flex;
