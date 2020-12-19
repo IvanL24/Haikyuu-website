@@ -1,5 +1,5 @@
 ## Haikyuu website project
-### (Ivan Lavena)[https://github.com/IvanL24/Haikyuu-website.git]
+### [Ivan Lavena](https://github.com/IvanL24/Haikyuu-website.git)
 
   Thank you very much for all the things that you taught us in the span of 15 weeks!!
 
