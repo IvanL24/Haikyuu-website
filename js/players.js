@@ -7,7 +7,7 @@ export  const players = [
   height: '176.8cm',
   position: 'Wing Spiker',
 
-  imagePath: '../img/players/1.jpg'
+  imagePath: 'img/players/1.jpg'
 },
 
 {
@@ -15,7 +15,7 @@ export  const players = [
   name: 'Sugawara Koshi',
   weight: '63.5kg',
   height: '174.3cm',
-  position: 'Setter/Pince Server',
+  position: 'Setter/Pinch Server',
 },
 
 {
