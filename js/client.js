@@ -1,4 +1,4 @@
-import { players } from './players.js';
+import { players } from 'players.js';
   
 let outputHTML = '';
   
