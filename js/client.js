@@ -14,7 +14,7 @@ players.forEach(function(item){
     
   `<figure class="card">
         
-    <img src="../img/players/${item.id}.jpg" alt="${item.title}">
+    <img src="img/players/${item.id}.jpg" alt="${item.title}">
 
     <figcaption>
       <h2>${item.name}</h2>
